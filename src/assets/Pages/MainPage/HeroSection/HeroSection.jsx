@@ -1,4 +1,3 @@
-import HeroBg from "../../../Images/herobg.png";
 import "./HeroSection.css";
 const HeroSection = () => {
   return (

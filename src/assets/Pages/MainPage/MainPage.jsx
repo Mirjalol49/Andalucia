@@ -4,8 +4,8 @@ import "./MainPage.css";
 const MainPage = () => {
   return (
     <>
-      <div className="container">
-        <div className="head-wrapper">
+      <div className="head-wrapper">
+        <div className="container">
           <Header />
           <main>
             <HeroSection />
