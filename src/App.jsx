@@ -1,5 +1,11 @@
+import MainPage from "./assets/Pages/MainPage/MainPage";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <MainPage />
+    </>
+  );
 }
 
 export default App;

@@ -1,0 +1,58 @@
+.header {
+    padding: 20px 0;
+    color  : #F4F7FD;
+}
+
+.header-wrapper {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.header-inwrapper {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    width          : 100%;
+    max-width      : 600px;
+    color          : white;
+}
+
+.header-logo {
+    color      : white;
+    font-size  : 20px;
+    line-height: 24px;
+}
+
+.header-nav {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    width          : 100%;
+    max-width      : 300px;
+}
+
+.header-contact {
+    background-color: #fff;
+    padding         : 15px;
+    border-radius   : 8px;
+    font-size       : 18px;
+    color           : #0000FF;
+    transition      : 0.3s all;
+    border          : 3px solid transparent;
+
+}
+
+
+.header-contact:hover {
+
+    background-color: #1B82FB;
+    border          : 3px solid #fff;
+    color           : #fff;
+
+}
+
+.header-contact:active {
+
+    transform: scale(0.97);
+}
