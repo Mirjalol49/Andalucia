@@ -1,5 +1,24 @@
 /*! FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Unbounded:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;600;700&display=swap');
+
+
+/*? DARK MODE LIGHT MODE */
+:root {
+  --text-color      : #21232C;
+  --background-color: #C9E4F5;
+  --main-background : #ffffff;
+}
+
+[data-theme="dark"] {
+  --text-color      : #ffffff;
+  --background-color: #0E141B;
+  --main-background : #0E141B;
+}
+
+
+
+
 
 
 
@@ -29,10 +48,14 @@ body {
   -webkit-font-smoothing: antialiased;
   margin                : 0;
   padding               : 0;
-  font-family           : 'Unbounded', sans-serif;
-  font-weight           : 700;
-  background-color      : #F4F7FD;
+  font-family           : 'Poppins', sans-serif;
+  font-weight           : 400;
+  background-color      : var(--background-color);
+  color                 : var(--text-color);
+
 }
+
+
 
 /*
   5. Improve media defaults

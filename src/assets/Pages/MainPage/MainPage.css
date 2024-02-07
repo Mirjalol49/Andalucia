@@ -1,5 +1,7 @@
-.head-wrapper {
-    background-color: #1B82FB;
-
-
+.main-wrapper {
+    position        : sticky;
+    top             : 0;
+    z-index         : 2;
+    background-color: var(--main-background);
+    margin-top      : 400px;
 }

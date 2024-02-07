@@ -1,18 +1,14 @@
-import Header from "./Header/Header";
 import HeroSection from "./HeroSection/HeroSection";
 import "./MainPage.css";
+import Teachers from "./Teachers/Teachers";
 const MainPage = () => {
   return (
-    <>
-      <div className="head-wrapper">
-        <div className="container">
-          <Header />
-          <main>
-            <HeroSection />
-          </main>
-        </div>
+    <main>
+      <HeroSection />
+      <div className="main-wrapper">
+        <Teachers />
       </div>
-    </>
+    </main>
   );
 };
 

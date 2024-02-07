@@ -1,31 +1,23 @@
 .hero-section {
     margin-top: 80px;
     padding   : 0 20px;
-    color     : #FAFAFA;
-    display   : flex;
 
-    background-image   : url(../../../Images/herobg.png);
-    background-repeat  : no-repeat;
-    background-size    : 70%;
-    background-position: calc(50% + 240px) calc(50% - 40px);
+    position: fixed;
+    top     : 100px;
+    z-index : 0;
+
 
 
 
 }
 
-.hero-title {
-    font-size: 45px;
-    width    : 100%;
-    max-width: 748px;
-}
 
-.hero-intitle {
-    display: inline-block;
 
-    background-color: #73F4FC;
-    padding         : 10px;
-    border-radius   : 30px;
-    transform       : rotateZ(-5deg);
+.hero-section__title {
+    font-size              : 72px;
+    background             : -webkit-linear-gradient(#416AF6, #15F493);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hero-text-title {
@@ -37,8 +29,8 @@
 }
 
 .hero-btn {
-    display         : inline-block;
-    margin-top      : 200px;
+    display: inline-block;
+
     margin-bottom   : 50px;
     background-color: #FAFAFA;
     padding         : 15px;

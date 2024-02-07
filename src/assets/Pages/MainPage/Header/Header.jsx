@@ -1,4 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
+
+import Darkmode from "../../Darkmode/Darkmode";
 import "./Header.css";
 const Header = () => {
   return (
@@ -6,8 +8,8 @@ const Header = () => {
       <div className="container">
         <div className="header-wrapper">
           <div className="header-inwrapper">
-            <a className="header-logo" href="./index.html">
-              <h1>Andalucia</h1>
+            <a className="header-logo" href="https://www.andalucia.uz/">
+              Andalucia
             </a>
 
             <nav className="header-nav">
@@ -22,9 +24,7 @@ const Header = () => {
               </a>
             </nav>
           </div>
-          <div className="header-contact">
-            <a href="/link">Bog'lanish</a>
-          </div>
+          <Darkmode />
         </div>
       </div>
     </header>

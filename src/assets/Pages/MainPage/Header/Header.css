@@ -1,6 +1,9 @@
 .header {
-    padding: 20px 0;
-    color  : #F4F7FD;
+    padding : 30px 0;
+    position: sticky;
+    top     : 0;
+    z-index : 1;
+
 }
 
 .header-wrapper {
@@ -15,13 +18,16 @@
     justify-content: space-between;
     width          : 100%;
     max-width      : 600px;
-    color          : white;
+
+
 }
 
 .header-logo {
-    color      : white;
-    font-size  : 20px;
+    color      : #4433FF;
+    font-size  : 30px;
+    font-weight: 600;
     line-height: 24px;
+    font-family: "Kanit";
 }
 
 .header-nav {
@@ -30,17 +36,40 @@
     justify-content: space-between;
     width          : 100%;
     max-width      : 300px;
+    font-family    : "Open Sans", sans-serif;
+    font-weight    : 600;
 }
 
-.header-contact {
-    background-color: #fff;
-    padding         : 15px;
-    border-radius   : 8px;
-    font-size       : 18px;
-    color           : #0000FF;
-    transition      : 0.3s all;
-    border          : 3px solid transparent;
+.header-btn {
+    background: transparent;
+    border    : none;
+    cursor    : pointer;
+    opacity   : 0.7;
+    transition: 0.3s all;
+}
 
+.header-btn:hover {
+    opacity  : 1;
+    transform: scale(1.03);
+}
+
+.header-btn:active {
+    transform: scale(0.97);
+}
+
+.lightmode {
+    width : 30px;
+    height: auto;
+
+}
+
+.darkmode {
+    width : 30px;
+    height: auto;
+}
+
+.none {
+    display: none;
 }
 
 
