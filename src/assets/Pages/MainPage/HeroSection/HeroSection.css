@@ -5,6 +5,7 @@
 
     position: fixed;
     top     : 70px;
+    left    : 400px;
     z-index : 0;
 
 
@@ -13,22 +14,23 @@
 
 
 .hero-section__title {
-    font-size : 72px;
-    color     : #4433FF;
-    text-align: center;
-
-
-
-
-
+    font-size     : 72px;
+    color         : #3474AB;
+    text-align    : center;
+    text-transform: uppercase;
+    width         : 100%;
+    max-width     : 800px;
 }
 
-.hero-section__mintitle {
-    background: linear-gradient(900deg, #42ff64 0%, #0012d6 100%);
-
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.cloud {
+    width    : 100%;
+    max-width: 300px;
+    height   : auto;
+    position : absolute;
+    top      : -115px;
+    left     : -300px;
 }
+
 
 .hero-text-title {
     display  : inline-block;
