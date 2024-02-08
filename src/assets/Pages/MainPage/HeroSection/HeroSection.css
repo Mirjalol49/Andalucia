@@ -1,12 +1,11 @@
 .hero-section {
     margin-top: 80px;
-    padding   : 0 20px;
+
+    padding: 0 20px;
 
     position: fixed;
-    top     : 100px;
+    top     : 70px;
     z-index : 0;
-
-
 
 
 }
@@ -14,8 +13,19 @@
 
 
 .hero-section__title {
-    font-size              : 72px;
-    background             : -webkit-linear-gradient(#416AF6, #15F493);
+    font-size : 72px;
+    color     : #4433FF;
+    text-align: center;
+
+
+
+
+
+}
+
+.hero-section__mintitle {
+    background: linear-gradient(900deg, #42ff64 0%, #0012d6 100%);
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

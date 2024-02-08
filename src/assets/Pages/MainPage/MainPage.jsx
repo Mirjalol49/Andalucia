@@ -5,6 +5,7 @@ const MainPage = () => {
   return (
     <main>
       <HeroSection />
+
       <div className="main-wrapper">
         <Teachers />
       </div>

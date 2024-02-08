@@ -1,0 +1,22 @@
+.teachers-section {
+
+    position   : relative;
+    margin     : 0;
+    padding    : 0;
+    padding-top: 50px;
+}
+
+#wave {
+    position: absolute;
+    top     : -80px;
+    width   : 100%;
+    height  : auto;
+}
+
+@media screen and (min-width: 2600px) {
+    #wave {
+        position: absolute;
+        top     : -130px;
+    }
+
+}

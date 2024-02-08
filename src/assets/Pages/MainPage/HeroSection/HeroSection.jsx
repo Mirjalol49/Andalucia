@@ -5,11 +5,14 @@ import "./HeroSection.css";
 
 const HeroSection = () => {
   return (
-    <div className="conatiner">
-      <section className="hero-section">
-        <h1 className="hero-section__title">hello welcome to my website</h1>
-      </section>
-    </div>
+    <section className="hero-section">
+      <div className="conatiner">
+        <h1 className="hero-section__title">
+          Siz <span className="hero-section__mintitle">ilmga</span> bor-
+          yo’g’ingizni bermaguningizcha, u sizga biror narsa bermaydi
+        </h1>
+      </div>
+    </section>
   );
 };
 
