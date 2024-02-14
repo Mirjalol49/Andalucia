@@ -1,21 +1,115 @@
 /*! FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;600;700&display=swap');
 
-
-/*? DARK MODE LIGHT MODE */
-:root {
-  --text-color      : #21232C;
-  --background-color: #CBE7FF;
-  --main-background : #ffffff;
+/*? POPPINS  START*/
+/* poppins-regular - latin */
+@font-face {
+  font-display  : swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family   : 'Poppins';
+  font-style    : normal;
+  font-weight   : 400;
+  src           : url('./assets/fonts/poppins-v20-latin-500.ttf') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('./assets/fonts/poppins-v20-latin-regular.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
-[data-theme="dark"] {
-  --text-color      : #ffffff;
-  --background-color: #0E141B;
-  --main-background : #0E141B;
+/* poppins-500 - latin */
+@font-face {
+  font-display  : swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family   : 'Poppins';
+  font-style    : normal;
+  font-weight   : 500;
+  src           : url('./assets/fonts/poppins-v20-latin-500.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('./assets/fonts/poppins-v20-latin-500.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
+/* poppins-600 - latin */
+@font-face {
+  font-display  : swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family   : 'Poppins';
+  font-style    : normal;
+  font-weight   : 600;
+  src           : url('./assets/fonts/poppins-v20-latin-600.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('./assets/fonts/poppins-v20-latin-600.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* poppins-700 - latin */
+@font-face {
+  font-display  : swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family   : 'Poppins';
+  font-style    : normal;
+  font-weight   : 700;
+  src           : url('./assets/fonts/poppins-v20-latin-700.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('./assets/fonts/poppins-v20-latin-700.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* poppins-800 - latin */
+@font-face {
+  font-display  : swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family   : 'Poppins';
+  font-style    : normal;
+  font-weight   : 800;
+  src           : url('./assets/fonts/poppins-v20-latin-800.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('./assets/fonts/poppins-v20-latin-800.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/*? POPPINS  END*/
+
+/*? ROBOTO START */
+
+/* roboto-regular - latin */
+@font-face {
+  font-display  : swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family   : 'Roboto';
+  font-style    : normal;
+  font-weight   : 400;
+  src           : url('./assets/fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('./assets/fonts/roboto-v30-latin-regular.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* roboto-500 - latin */
+@font-face {
+  font-display  : swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family   : 'Roboto';
+  font-style    : normal;
+  font-weight   : 500;
+  src           : url('./assets/fonts/roboto-v30-latin-500.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('./assets/fonts/roboto-v30-latin-500.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-display  : swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family   : 'Roboto';
+  font-style    : normal;
+  font-weight   : 700;
+  src           : url('./assets/fonts/roboto-v30-latin-700.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('./assets/fonts/roboto-v30-latin-700.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/*? ROBOT END */
 
 
 
@@ -48,12 +142,10 @@ body {
   -webkit-font-smoothing: antialiased;
   margin                : 0;
   padding               : 0;
-  font-family           : 'Poppins', sans-serif;
+  font-family           : "Poppins", sans-serif;
   font-weight           : 400;
-  background-color      : var(--background-color);
-  color                 : var(--text-color);
-  transition            : 0.3s all;
-
+  background-color      : #1A5EE5;
+  color                 : #fff;
 }
 
 

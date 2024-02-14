@@ -1,6 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import Darkmode from "../../Darkmode/Darkmode";
+import Youtube from "../../../Images/youtube.png";
+import Telegram from "../../../Images/telegram.png";
+import Facebook from "../../../Images/facebook.png";
+import Instagram from "../../../Images/instagram.png";
 import "./Header.css";
 const Header = () => {
   return (
@@ -17,14 +20,62 @@ const Header = () => {
                 Kurslar
               </a>
               <a className="nav-link" href="#kurslar">
-                Jamoa
+                Natijalar
               </a>
               <a className="nav-link" href="#kurslar">
-                Natijalar
+                Ustozlarimiz
+              </a>
+              <a className="nav-link" href="#kurslar">
+                Kursimiz haqida
               </a>
             </nav>
           </div>
-          <Darkmode />
+          <div className="header-social-wrapper">
+            <a
+              className="header-social__link"
+              href="https://www.youtube.com/@andaluciantm/videos"
+              target="blank"
+            >
+              <img
+                className="header-social__img"
+                src={Facebook}
+                alt="facebook icon"
+              />{" "}
+            </a>
+            <a
+              className="header-social__link"
+              href="https://www.instagram.com/andalucia.uz/?igsh=eWVnMmIwczI3anF2"
+              target="blank"
+            >
+              <img
+                className="header-social__img"
+                src={Instagram}
+                alt="instagram icon"
+              />{" "}
+            </a>
+            <a
+              className="header-social__link"
+              href="https://www.youtube.com/@andaluciantm/videos"
+              target="blank"
+            >
+              <img
+                className="header-social__img"
+                src={Youtube}
+                alt="youtube icon"
+              />{" "}
+            </a>
+            <a
+              className="header-social__link"
+              href="https://t.me/Andalucia_uz"
+              target="blank"
+            >
+              <img
+                className="header-social__img"
+                src={Telegram}
+                alt="telegram icon"
+              />{" "}
+            </a>
+          </div>
         </div>
       </div>
     </header>
