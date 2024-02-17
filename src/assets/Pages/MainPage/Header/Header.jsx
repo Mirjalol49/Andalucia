@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import Youtube from "../../../Images/youtube.png";
-import Telegram from "../../../Images/telegram.png";
-import Facebook from "../../../Images/facebook.png";
-import Instagram from "../../../Images/instagram.png";
+import Youtube from "../../../Images/youtube.svg";
+import Telegram from "../../../Images/telegram.svg";
+import Facebook from "../../../Images/facebook.svg";
+import Instagram from "../../../Images/instagram.svg";
 import "./Header.css";
 const Header = () => {
   return (

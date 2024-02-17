@@ -1,3 +1,9 @@
+.hero-section {
+    overflow      : hidden;
+    padding-bottom: 260px;
+    color         : #fff;
+}
+
 .hero-wrapper {
     display : flex;
     position: relative;
@@ -5,10 +11,6 @@
 
 }
 
-.hero-section {
-    overflow      : hidden;
-    padding-bottom: 260px;
-}
 
 
 .hero-start__title {

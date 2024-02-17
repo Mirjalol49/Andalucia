@@ -1,5 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./HeroSection.css";
-import Arrow from "../../../Images/rightarrow.png";
+import Arrow from "../../../Images/arrow.svg";
 import HeroImg from "../../../Images/heroimg.png";
 const HeroSection = () => {
   return (
@@ -8,7 +9,7 @@ const HeroSection = () => {
         <div className="hero-wrapper">
           <div className="hero-start-wrapper">
             <h1 className="hero-start__title">
-              Sifatli ta'lim orqali porloq kelajak yarating
+              Sifatli ta'lim orqali porloq kelajak sari
             </h1>
             <ul className="hero-in-list">
               <li className="hero-in-item">

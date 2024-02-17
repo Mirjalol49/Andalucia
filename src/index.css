@@ -145,8 +145,18 @@ body {
   font-family           : "Poppins", sans-serif;
   font-weight           : 400;
   background-color      : #1A5EE5;
-  color                 : #fff;
+  overflow-y            : scroll;
 }
+
+body::-webkit-scrollbar {
+  width: 0;
+
+
+  /* Remove scrollbar space */
+}
+
+
+
 
 
 
@@ -170,6 +180,10 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+a {
+  display: inline-block;
 }
 
 /*
