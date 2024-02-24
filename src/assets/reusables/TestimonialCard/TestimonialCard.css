@@ -1,0 +1,18 @@
+.testimonial-wrapper {
+    background-color: #fff;
+    width           : 100%;
+    max-width       : 600px;
+    border-radius   : 20px;
+    box-shadow      : rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+.testimonial-title {
+    font-size    : 20px;
+    border-bottom: 2px solid #CCCCCC66;
+    color        : #1A1A1A;
+}
+
+.testimonial-text {
+    color: #333333;
+}

@@ -1,0 +1,31 @@
+.why-cards-wrapper {
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    flex-direction  : column;
+    border-radius   : 30px;
+    background-color: #fff;
+    width           : 100%;
+    max-width       : 400px;
+    padding         : 20px 25px;
+    text-align      : center;
+    box-shadow      : rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.why-cards-img {
+    width           : 80px;
+    height          : 80px;
+    background-color: rgb(60, 60, 255);
+    border-radius   : 20px;
+    padding         : 10px;
+}
+
+.why-cards-title {
+    font-size: 30px;
+    color    : #050861;
+    margin   : 10px 0;
+}
+
+.why-cards-text {
+    color: #05086199;
+}

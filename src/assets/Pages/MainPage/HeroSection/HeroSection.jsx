@@ -1,10 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./HeroSection.css";
 import Arrow from "../../../Images/arrow.svg";
-import HeroImg from "../../../Images/heroimg.png";
+
 const HeroSection = () => {
+  AOS.init();
   return (
-    <section className="hero-section">
+    <section className="hero-section" data-aos="fade-up">
       <div className="container">
         <div className="hero-wrapper">
           <div className="hero-start-wrapper">
@@ -26,7 +29,6 @@ const HeroSection = () => {
               <img className="hero-right-arrow" src={Arrow} alt="right arrow" />
             </a>
           </div>
-          <img className="hero-img" src={HeroImg} alt="heroimg" />
         </div>
       </div>
     </section>

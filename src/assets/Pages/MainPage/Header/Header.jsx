@@ -19,7 +19,7 @@ const Header = () => {
               <a className="nav-link" href="#kurslar">
                 Kurslar
               </a>
-              <a className="nav-link" href="#kurslar">
+              <a className="nav-link" href="#natijalar">
                 Natijalar
               </a>
               <a className="nav-link" href="#kurslar">

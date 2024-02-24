@@ -129,7 +129,8 @@
   2. Remove default margin
 */
 * {
-  margin: 0;
+  margin         : 0;
+  scroll-behavior: smooth;
 }
 
 /*

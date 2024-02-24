@@ -6,16 +6,18 @@ import Math from "../../../Images/mathSub.svg";
 import Turk from "../../../Images/turkishSub.svg";
 import Russian from "../../../Images/russianSub.svg";
 import Pochemuchka from "../../../Images/pochemuchka.svg";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import SubCard from "../../../reusables/SubjectsCard/SubCard";
 import "./Subjects.css";
 
 const Subjects = () => {
+  AOS.init();
   return (
-    <section className="subjects-section">
+    <section id="kurslar" className="subjects-section" data-aos="fade-up">
       <div className="container">
         <h2 className="subjects-title">Sizga most keladigan kursni tanlang</h2>
-        <div className="subjects-box">
+        <div className="subjects-box" data-aos="fade-up">
           <SubCard
             subImg={Arabic}
             subject={"Arab Tili"}
