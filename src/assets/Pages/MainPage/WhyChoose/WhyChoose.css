@@ -1,6 +1,7 @@
 .why-choose {
     background-color: #F4F7FD;
     padding-top     : 100px;
+
 }
 
 .why-choose-title {
@@ -15,10 +16,20 @@
     font-size    : 18px;
     color        : #05086199;
     margin-bottom: 20px;
+
 }
 
+
+
+
+
+
 .why-choose-cards-wrapper {
-    display        : flex;
+    display: flex;
+
+    overflow       : hidden;
     align-items    : center;
     justify-content: space-between;
+    margin-top     : 50px;
+
 }

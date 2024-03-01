@@ -26,10 +26,7 @@ const Results = () => {
 
   useEffect(() => {
     if (emblaApi) {
-      const handleScroll = () => {
-        const scrollProgress = emblaApi.scrollProgress();
-        console.log("Scroll Progress:", scrollProgress);
-      };
+      const handleScroll = () => {};
 
       emblaApi.on("scroll", handleScroll);
 

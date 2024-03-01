@@ -1,6 +1,5 @@
 .aboutme-section {
-    padding-top     : 120px;
-    padding-bottom  : 140px;
+    padding         : 100px 0;
     background      : linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(232, 247, 255, 0.163) 65.3%, #85B5FD 100%);
     background-color: #F4F7FD;
 }

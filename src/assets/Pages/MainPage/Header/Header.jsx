@@ -4,6 +4,7 @@ import Youtube from "../../../Images/youtube.svg";
 import Telegram from "../../../Images/telegram.svg";
 import Facebook from "../../../Images/facebook.svg";
 import Instagram from "../../../Images/instagram.svg";
+
 import "./Header.css";
 const Header = () => {
   return (
@@ -22,11 +23,11 @@ const Header = () => {
               <a className="nav-link" href="#natijalar">
                 Natijalar
               </a>
-              <a className="nav-link" href="#kurslar">
-                Ustozlarimiz
-              </a>
-              <a className="nav-link" href="#kurslar">
+              <a className="nav-link" href="#aboutus">
                 Kursimiz haqida
+              </a>
+              <a className="nav-link" href="#contact">
+                Biz bilan bog'lanish
               </a>
             </nav>
           </div>

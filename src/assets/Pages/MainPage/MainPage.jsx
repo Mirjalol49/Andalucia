@@ -1,11 +1,16 @@
 import AboutMe from "./AboutMe/AboutMe";
+import Contact from "./Contact/Contact";
+import Faq from "./Faq/Faq";
+
 import HeroSection from "./HeroSection/HeroSection";
+
 import "./MainPage.css";
 import Results from "./Results/Results";
 import Subjects from "./Subjects/Subjects";
 import Teachers from "./Teachers/Teachers";
-import WhyChoose from "./WhyChoose/WhyChoose";
+import Testimonilas from "./Testimonials/Testimonilas";
 
+import WhyChoose from "./WhyChoose/WhyChoose";
 
 const MainPage = () => {
   return (
@@ -17,7 +22,9 @@ const MainPage = () => {
       <AboutMe />
       <Results />
       <WhyChoose />
-     
+      <Testimonilas />
+      <Faq />
+      <Contact />
     </main>
   );
 };

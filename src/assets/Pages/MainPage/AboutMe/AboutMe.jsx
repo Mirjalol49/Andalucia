@@ -5,7 +5,7 @@ import "./AboutMe.css";
 const AboutMe = () => {
   AOS.init();
   return (
-    <section className="aboutme-section">
+    <section className="aboutme-section" id="aboutus">
       <div className="container">
         <div className="aboutme-wrapper" data-aos="fade-up">
           <img className="aboutme-img" src={AbImg} alt="abimg" />

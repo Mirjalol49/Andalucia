@@ -1,18 +1,34 @@
 .testimonial-wrapper {
     background-color: #fff;
     width           : 100%;
-    max-width       : 600px;
+    max-width       : 500px;
     border-radius   : 20px;
     box-shadow      : rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding         : 20px;
 
 }
 
 .testimonial-title {
-    font-size    : 20px;
-    border-bottom: 2px solid #CCCCCC66;
-    color        : #1A1A1A;
+    font-size     : 25px;
+    border-bottom : 2px solid #CCCCCC66;
+    color         : #1A1A1A;
+    padding-bottom: 10px;
 }
 
 .testimonial-text {
-    color: #333333;
+    color         : #333333;
+    font-size     : 18px;
+    margin-top    : 10px;
+    padding-bottom: 10px;
+}
+
+.testimonial-svg-wrapper {
+    display      : flex;
+    color        : orange;
+    margin-bottom: 10px;
+}
+
+.testimonial-svg {
+    width : 20px;
+    height: 20px;
 }
