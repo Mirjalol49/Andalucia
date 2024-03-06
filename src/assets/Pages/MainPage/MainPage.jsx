@@ -5,9 +5,11 @@ import Faq from "./Faq/Faq";
 import HeroSection from "./HeroSection/HeroSection";
 
 import "./MainPage.css";
+import Popup from "./PopUp/Popup";
+
 import Results from "./Results/Results";
 import Subjects from "./Subjects/Subjects";
-import Teachers from "./Teachers/Teachers";
+
 import Testimonilas from "./Testimonials/Testimonilas";
 
 import WhyChoose from "./WhyChoose/WhyChoose";
@@ -18,12 +20,12 @@ const MainPage = () => {
       <HeroSection />
       <Subjects />
 
-      <Teachers />
       <AboutMe />
       <Results />
+      <Popup />
       <WhyChoose />
-      <Testimonilas />
       <Faq />
+      <Testimonilas />
       <Contact />
     </main>
   );

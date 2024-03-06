@@ -1,73 +1,43 @@
 .sub-card {
-    width     : 100%;
-    max-width : 318px;
-    margin-top: 80px;
-    padding   : 24px;
-
+    width        : 100%;
+    max-width    : 318px;
+    margin-top   : 80px;
+    padding      : 20px;
+    transition   : 0.5s all;
     cursor       : pointer;
     border-radius: 12px;
-    box-shadow   : rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
-    &.bgGradient1 {
-        background: linear-gradient(180deg, #F5F5F5 0%, rgba(43, 167, 255, 0.450) 100%);
-    }
+    border-top   : 2px solid #020202;
+    border-right : 8px solid #020202;
+    border-bottom: 8px solid #020202;
+    border-left  : 2px solid #020202;
 
-    &.bgGradient2 {
-        background: linear-gradient(180deg, #F5F5F5 0%, rgba(43, 255, 64, 0.450) 100%);
-    }
 
-    &.bgGradient3 {
-        background: linear-gradient(180deg, #F5F5F5 0%, rgba(100, 43, 255, 0.450) 100%);
-    }
-
-    &.bgGradient4 {
-        background: linear-gradient(180deg, #F5F5F5 0%, rgba(43, 255, 191, 0.450) 100%);
-    }
-
-    &.bgGradient5 {
-        background: linear-gradient(180deg, #F5F5F5 0%, rgba(98, 43, 255, 0.450) 100%);
-    }
-
-    &.bgGradient6 {
-        background: linear-gradient(180deg, #F5F5F5 0%, rgba(43, 255, 191, 0.450) 100%);
-    }
-
-    &.bgGradient7 {
-        background: linear-gradient(180deg, #F5F5F5 0%, rgba(43, 255, 64, 0.450) 100%);
-    }
-
-    &.bgGradient8 {
-        background: linear-gradient(180deg, #F5F5F5 0%, rgba(43, 166, 255, 0.450) 100%);
-    }
 }
 
 .sub-card:hover {
-    transform : scale(1.03);
-    transition: 0.3s all;
-}
-
-.sub-card:hover .sub-btn {
-    background-color: #1C4CF7;
-    color           : #fff;
-    transform       : scale();
-    transition      : 0.3s all;
+    transform: scale(1.03);
 
 }
+
+
 
 
 
 
 .sub-img {
-    width        : 80px;
-    height       : 80px;
-    margin-bottom: 24px;
+    width        : 50px;
+    height       : 50px;
+    margin-bottom: 5px;
 }
 
 .sub-title {
-    font-size    : 29px;
-    line-height  : 40px;
-    color        : #050861;
-    margin-bottom: 8px;
+    font-weight: 700;
+    font-size  : 25px;
+
+    color         : #231F20;
+    margin-bottom : 3px;
+    text-transform: uppercase;
 }
 
 .sub-subtitle {
@@ -75,17 +45,64 @@
     font-size    : 16px;
     line-height  : 24px;
     font-weight  : 400;
-    color        : #05086199;
-    margin-bottom: 84px;
+    color        : #231F20;
+    margin-bottom: 20px;
 
 }
 
-.sub-btn {
-    display         : block;
-    background-color: #fff;
-    padding         : 12px 24px;
-    text-align      : center;
-    width           : 100%;
-    color           : #1C4CF7;
-    border-radius   : 8px;
+
+/* %%%%%%%%%%%%%%%%%%%%% */
+.cssbuttons-io-button {
+    background    : #F9F4DA;
+    color         : #020202;
+    font-family   : inherit;
+    padding       : 0.35em;
+    padding-left  : 1.2em;
+    font-size     : 17px;
+    font-weight   : 500;
+    border-radius : 0.4em;
+    border        : none;
+    letter-spacing: 0.05em;
+    display       : flex;
+    align-items   : center;
+
+    overflow     : hidden;
+    position     : relative;
+    height       : 2.8em;
+    padding-right: 3.3em;
+    cursor       : pointer;
+}
+
+.cssbuttons-io-button .icon {
+    background     : #FCBA28;
+    margin-left    : 1em;
+    position       : absolute;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    height         : 2.2em;
+    width          : 2.2em;
+    border-radius  : 0.4em;
+
+    right     : 0.3em;
+    transition: all 0.3s;
+}
+
+.sub-card:hover .cssbuttons-io-button .icon {
+    width        : calc(100% - 0.6em);
+    border-radius: 0.4em;
+}
+
+.cssbuttons-io-button .icon svg {
+    width     : 1.3em;
+    transition: transform 0.3s;
+    color     : #020202;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
 }

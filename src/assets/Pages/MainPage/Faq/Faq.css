@@ -1,16 +1,31 @@
 .faq {
     padding-top     : 100px;
     padding-bottom  : 100px;
-    background-color: #F4F7FD;
+    background-color: #0D0F12;
 }
 
 
 .faq-title {
-    font-weight  : 700;
-    font-size    : 50px;
-    line-height  : 40px;
-    margin-bottom: 20px;
-    color        : #050861;
-    text-align   : center;
-    margin-bottom: 50px;
+    font-weight   : 700;
+    font-size     : 60px;
+    line-height   : 40px;
+    margin-bottom : 20px;
+    color         : #F9F4DA;
+    text-align    : center;
+    margin-bottom : 50px;
+    word-spacing  : 1px;
+    letter-spacing: 0.5px;
+}
+
+.faq-in-title {
+    color         : #0D0F11;
+    font-weight   : 700;
+    font-size     : 22px;
+    word-spacing  : 1px;
+    letter-spacing: 0.5px;
+}
+
+.faq-content {
+    font-size: 18px;
+    color    : #0D0F11;
 }

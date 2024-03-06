@@ -2,6 +2,7 @@
 import "./Contact.css";
 import { useState } from "react";
 import axios from "axios";
+import Button from "../../../reusables/Button/Button";
 
 const Contact = () => {
   const defaultCountryCode = "+998";
@@ -46,7 +47,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact" id="contact">
+    <section className="contact" id="contact" data-aos="fade-up">
       <div className="container">
         <div className="contact-wrapper">
           <div className="contact-start-wrapper">
@@ -63,6 +64,7 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Ismingiz"
+                autoComplete="off"
                 required
               />
               <label className="contact-label" htmlFor="number">
@@ -77,14 +79,10 @@ const Contact = () => {
                 onChange={handleChange}
                 placeholder={defaultCountryCode}
                 min={12}
+                autoComplete="off"
                 required
               />
-              <button
-                className="btn text-lg w-full mt-5 text-white sm:btn-sm md:btn-md lg:btn-lg"
-                type="submit"
-              >
-                Yuborish
-              </button>
+              <Button text={"Yuborish"} margin={"30px 0 0 0"} />
             </form>
           </div>
           <div className="contact-end-wrapper">

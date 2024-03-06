@@ -1,53 +1,44 @@
 .aboutme-section {
-    padding         : 100px 0;
-    background      : linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(232, 247, 255, 0.163) 65.3%, #85B5FD 100%);
-    background-color: #F4F7FD;
+    padding   : 50px 0;
+    background: #0D0F12;
+
+
 }
 
 .aboutme-wrapper {
+    width          : 100%;
+    background     : #83c5be;
+    padding        : 20px;
+    border-radius  : 10px;
+    border-top     : 3px solid #fff;
+    border-left    : 3px solid #fff;
+    box-shadow     : 6px 6px #fff;
     display        : flex;
     justify-content: space-between;
+}
 
+.aboutme-in-wrapper {
     width    : 100%;
-    max-width: 1400px;
+    max-width: 650px;
+    color    : #0D0F12;
+
 }
 
 .aboutme-img {
-    display: block;
-    width  : 800px;
-    height : 445px;
+    border       : 2px solid #F9F4DA;
+    border-radius: 10px;
 }
 
 .aboutme-title {
-    font-size    : 32px;
-    margin-bottom: 16px;
-    line-height  : 40px;
-    color        : #050861;
+    font-size     : 35px;
+    font-weight   : 700;
+    margin-bottom : 10px;
+    word-spacing  : 1px;
+    letter-spacing: 0.5px;
 }
 
 .aboutme-subtitle {
-    font-family  : "Roboto", sans-serif;
-    font-size    : 18px;
-    color        : #05086199;
-    margin-bottom: 101px;
-
-}
-
-.aboutme-end-wrapper {
-    padding         : 28px;
-    background-color: #F4F7FD;
-    border-radius   : 12px;
-    width           : 100%;
-    max-width       : 550px;
-}
-
-.aboutme-imgbox {
-    display        : flex;
-    align-items    : center;
-    justify-content: space-between;
-}
-
-.aboutme-in-img {
-    width : 200px;
-    height: 150px;
+    font-size     : 20px;
+    word-spacing  : 1px;
+    letter-spacing: 0.5px;
 }

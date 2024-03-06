@@ -14,64 +14,65 @@ import "./Subjects.css";
 const Subjects = () => {
   AOS.init();
   return (
-    <section id="kurslar" className="subjects-section" data-aos="fade-up">
+    <section id="kurslar" className="subjects-section">
       <div className="container">
-        <h2 className="subjects-title">Sizga most keladigan kursni tanlang</h2>
+        <h2 className="subjects-title">Sizga mos keladigan kursni tanlang</h2>
+
         <div className="subjects-box" data-aos="fade-up">
           <SubCard
             subImg={Arabic}
             subject={"Arab Tili"}
-            subtitle={"bu fan eng zor fan"}
-            bgGradient="bgGradient1"
+            subtitle={`Oq'uvchilarimiz qisqa mudatda CEFR imtixonida kamida B2 sertifikat olishadi.`}
+            bg={"#0BA95B"}
           />
 
           <SubCard
             subImg={Mental}
             subject={"Mental Arifmetika"}
-            subtitle={"bu eng zor fan"}
-            bgGradient={"bgGradient2"}
+            subtitle={`Oq'uvchilarimiz qisqa mudatda CEFR imtixonida kamida B2 sertifikat olishadi.`}
+            bg={"#9163e0"}
           />
 
           <SubCard
             subImg={Onatili}
             subject={"Ona tili"}
-            subtitle={"bu eng zor fan"}
-            bgGradient={"bgGradient3"}
+            subtitle={`Oq'uvchilarimiz qisqa mudatda CEFR imtixonida kamida B2 sertifikat olishadi.`}
+            bg={"#12B5E5"}
           />
 
           <SubCard
             subImg={Ingliz}
             subject={"Ingliz tili"}
-            subtitle={"bu eng zor fan"}
-            bgGradient={"bgGradient4"}
+            subtitle={`Oq'uvchilarimiz qisqa mudatda CEFR imtixonida kamida B2 sertifikat olishadi.`}
+            bg={"#4ec5c1"}
           />
 
           <SubCard
             subImg={Math}
             subject={"Matematika"}
-            subtitle={"bu eng zor fan"}
-            bgGradient={"bgGradient5"}
+            subtitle={`Oq'uvchilarimiz qisqa mudatda CEFR imtixonida kamida B2 sertifikat olishadi.`}
+            bg={"#ED203D"}
           />
 
           <SubCard
             subImg={Turk}
             subject={"Turk tili"}
-            subtitle={"bu eng zor fan"}
-            bgGradient={"bgGradient6"}
+            subtitle={`Oq'uvchilarimiz qisqa mudatda CEFR imtixonida kamida B2 sertifikat olishadi.`}
+            bg={"#FB7428"}
           />
 
           <SubCard
             subImg={Russian}
             subject={"Rus tili"}
-            subtitle={"bu eng zor fan"}
-            bgGradient={"bgGradient7"}
+            subtitle={`Oq'uvchilarimiz qisqa mudatda CEFR imtixonida kamida B2 sertifikat olishadi.`}
+            bg={"#F38BA3"}
           />
 
           <SubCard
             subImg={Pochemuchka}
             subject={"Pochemuchka"}
-            subtitle={"bu eng zor fan"}
-            bgGradient={"bgGradient8"}
+            subtitle={`Oq'uvchilarimiz qisqa mudatda CEFR imtixonida kamida B2 sertifikat olishadi.`}
+            bg={"#FCBA28"}
           />
         </div>
       </div>

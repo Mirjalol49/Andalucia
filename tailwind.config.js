@@ -6,4 +6,8 @@ export default {
     extend: {},
   },
   plugins: [require("daisyui")],
+  "postcss-import": {},
+  "tailwindcss/nesting": {},
+  tailwindcss: {},
+  autoprefixer: {},
 };

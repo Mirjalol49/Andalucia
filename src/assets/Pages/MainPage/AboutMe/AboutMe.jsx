@@ -8,19 +8,23 @@ const AboutMe = () => {
     <section className="aboutme-section" id="aboutus">
       <div className="container">
         <div className="aboutme-wrapper" data-aos="fade-up">
-          <img className="aboutme-img" src={AbImg} alt="abimg" />
-          <div className="aboutme-end-wrapper">
-            <h2 className="aboutme-title">Andalucia markazi haqida</h2>
+          <img
+            className="aboutme-img"
+            src={AbImg}
+            alt="about me"
+            width={600}
+            height={600}
+          />
+          <div className="aboutme-in-wrapper">
+            <h3 className="aboutme-title">Andalucia markazi haqida</h3>
             <p className="aboutme-subtitle">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
-              ratione tempora, possimus distinctio, officiis placeat esse
-              asperiores sed, veritatis maiores maxime labore facere! Vero,
-              eligendi fugiat inventore molestias dolore quas.
+              {" "}
+              Biz oʻquvchilarga oʻz salohiyatlarini toʻliq roʻyobga chiqarishga
+              imkon beruvchi yuqori darajadagi, sifatli taʼlimni taqdim etishga
+              intilamiz. Bizning oʻquv dasturimiz ijodkorlik, tanqidiy fikrlash
+              va fikrlashni rivojlantirish uchun tajribali oʻqituvchilar
+              tomonidan puxta ishlab chiqilgan.
             </p>
-            <div className="aboutme-imgbox">
-              <img className="aboutme-in-img" src={AbImg} alt="JUST img" />
-              <img className="aboutme-in-img" src={AbImg} alt="JUST img" />
-            </div>
           </div>
         </div>
       </div>

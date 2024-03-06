@@ -1,14 +1,22 @@
 .header {
-    margin-bottom: 60px;
-    padding      : 20px 0 16px 0;
-    color        : #fff;
+    padding-top   : 20px;
+    padding-bottom: 60px;
+
+    --color         : #231f2077;
+    background-color: #0D0F12;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+    background-size: 72px 80px;
+
 }
+
+
 
 .header-wrapper {
     display        : flex;
     align-items    : center;
     justify-content: space-between;
-    border-bottom  : 1px solid #F0F0F033;
+    border-bottom  : 1px solid #F9F4DA;
     padding-bottom : 20px;
 }
 
@@ -17,16 +25,18 @@
     align-items    : center;
     justify-content: space-between;
     width          : 100%;
-    max-width      : 700px;
+    max-width      : 750px;
 
 
 }
 
 .header-logo {
-    color      : #fff;
-    font-size  : 24px;
-    font-weight: 700;
-    line-height: 24px;
+
+    font-size     : 30px;
+    font-weight   : 800;
+    line-height   : 24px;
+    word-spacing  : 1px;
+    letter-spacing: 0.5px;
 
 }
 
@@ -37,7 +47,10 @@
     width          : 100%;
     max-width      : 500px;
     font-family    : "Roboto", sans-serif;
-    font-weight    : 400;
+    font-weight    : 500;
+    font-size      : 18px;
+    word-spacing   : 1px;
+    letter-spacing : 0.5px;
 }
 
 .header-social-wrapper {
@@ -48,30 +61,50 @@
     max-width      : 200px;
 }
 
+.header-social__link {
+    border    : 2px solid transparent;
+    transition: 0.2s all;
+
+}
+
 .header-social__link:first-child {
-    padding         : 8px 13px;
-    border-radius   : 10px;
-    background-color: #4478E1;
+    padding      : 8px 13px;
+    border-radius: 10px;
+
 
 }
 
 .header-social__link:nth-child(2) {
-    padding         : 8px;
-    border-radius   : 10px;
-    background-color: #4478E1;
+    padding      : 8px;
+    border-radius: 10px;
+
 
 }
 
 .header-social__link:nth-child(3) {
-    padding         : 11px 8px;
-    border-radius   : 10px;
-    background-color: #4478E1;
+    padding      : 11px 8px;
+    border-radius: 10px;
+
 
 }
 
 .header-social__link:last-child {
-    padding         : 10px 10px 10px 6px;
-    border-radius   : 10px;
-    background-color: #4478E1;
+    padding      : 10px 10px 10px 6px;
+    border-radius: 10px;
+
+
+}
+
+
+.header-social__link:hover {
+    border   : 2px solid #F9F4DA;
+    transform: scale(1.1);
+}
+
+.insta-bg {
+
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 
 }

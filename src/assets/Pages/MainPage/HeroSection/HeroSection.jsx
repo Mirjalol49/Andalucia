@@ -3,7 +3,9 @@ import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./HeroSection.css";
-import Arrow from "../../../Images/arrow.svg";
+
+import SwiperSlides from "../../../reusables/SwiperSlides/SwiperSlides";
+import Button from "../../../reusables/Button/Button";
 
 const HeroSection = () => {
   const [studentsCount, setStudentsCount] = useState(0);
@@ -50,11 +52,15 @@ const HeroSection = () => {
                 <p className="hero-in__info">O'qituvchilar</p>
               </li>
             </ul>
-            <a className="hero-btn" href="#contact">
-              Darsga yozilish
-              <img className="hero-right-arrow" src={Arrow} alt="right arrow" />
-            </a>
+
+            <Button
+              sourse={"#contact"}
+              text={"DARSGA YOZILISH"}
+              margin={"80px 0 0 0"}
+            />
           </div>
+
+          <SwiperSlides />
         </div>
       </div>
     </section>

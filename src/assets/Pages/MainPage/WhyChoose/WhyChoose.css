@@ -1,35 +1,90 @@
 .why-choose {
-    background-color: #F4F7FD;
-    padding-top     : 100px;
+    background-color: #0D0F12;
+    padding-top     : 200px;
 
 }
 
 .why-choose-title {
-    font-size    : 40px;
-    color        : #050861;
-    margin-bottom: 20px;
-    line-height  : 40px;
+    display                : block;
+    font-style             : normal;
+    font-size              : min(48px, 9vw);
+    font-weight            : 700;
+    text-align             : center;
+    background-image       : linear-gradient(200.67deg, rgb(255, 255, 255) 25%, rgb(255, 240, 102) 35%, rgb(255, 163, 26) 55.54%, rgb(255, 0, 115) 75%);
+    background-size        : 100%;
+    background-clip        : text;
+    -webkit-text-fill-color: transparent;
+    margin                 : 0 auto 50px auto;
+    word-spacing           : 1px;
+    letter-spacing         : 0.5px;
 }
 
-.why-choose-text {
-    font-family  : "Roboto", sans-serif;
-    font-size    : 18px;
-    color        : #05086199;
-    margin-bottom: 20px;
-
-}
 
 
-
-
-
-
-.why-choose-cards-wrapper {
-    display: flex;
-
-    overflow       : hidden;
-    align-items    : center;
+.why-choose-exp {
+    width          : 100%;
+    max-width      : 1000px;
+    display        : flex;
+    align-items    : flex-end;
     justify-content: space-between;
-    margin-top     : 50px;
+    margin         : 0 auto 120px auto;
 
+}
+
+.whychoose-goldTrophy {
+
+    width     : 100%;
+    max-width : 320px;
+    max-height: 400px;
+
+}
+
+.why-choose-info {
+    width    : 100%;
+    max-width: 700px;
+}
+
+.why-choose-info-title {
+    font-size     : 40px;
+    font-weight   : 600;
+    margin-bottom : 20px;
+    color         : #fff;
+    word-spacing  : 1px;
+    letter-spacing: 0.5px;
+}
+
+.why-choose-info-text {
+    font-size     : 20px;
+    font-weight   : 500;
+    color         : #fff;
+    word-spacing  : 1px;
+    letter-spacing: 0.5px;
+}
+
+.whychoose-start {
+    color: #F7E401;
+}
+
+.whychoose-mid {
+    color: #29B92F;
+}
+
+.whychoose-end {
+    color: #CF932D;
+}
+
+.whychoose-svg {
+    position     : relative !important;
+    margin-bottom: 350px;
+
+
+}
+
+.dot-svg {
+    position: absolute;
+    right   : 120px;
+
+    bottom: -300px;
+    width : 1100px;
+    height: auto
 }
