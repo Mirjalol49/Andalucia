@@ -23,6 +23,8 @@
 
 }
 
+
+
 .hero-slide-txt-wrapper {
     background-color: #F9F4DA;
     width           : 100%;
@@ -45,7 +47,7 @@
 .swiper-slide:nth-child(1n) {
 
 
-    background-color: #98c1d9;
+    background-color: #adb5bd;
 
 
 

@@ -85,7 +85,7 @@ const WhyChoose = () => {
 
         <div className="why-choose-exp" data-aos="fade-right">
           <div className="why-choose-info">
-            <h3 className="why-choose-info-title">Online darslar</h3>
+            <h3 className="why-choose-info-title">Online Darslar</h3>
             <p className="why-choose-info-text">
               Uzoq masofada istiqomat qiluvchilar uchun Online darslarimiz ham
               mavjud.Bizda hatto{" "}
@@ -119,7 +119,7 @@ const WhyChoose = () => {
             alt="gold trophy"
           />
           <div className="why-choose-info">
-            <h3 className="why-choose-info-title">Bepul darslar</h3>
+            <h3 className="why-choose-info-title">Bepul Darslar</h3>
             <p className="why-choose-info-text">
               Haftada kamida 3 marta kanalimizda Jonli bepul dars shaxsan{" "}
               <span className="whychoose-end">Begzod Bakirov(doktorant) </span>{" "}

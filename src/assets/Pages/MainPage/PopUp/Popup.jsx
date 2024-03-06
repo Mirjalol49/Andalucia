@@ -41,7 +41,7 @@ const Popup = () => {
         (scrollTop * 100) / (docHeight - winHeight)
       );
 
-      if (percentage >= 70 && percentage <= 100) {
+      if (percentage >= 80 && percentage <= 100) {
         showPopup();
       }
     };
