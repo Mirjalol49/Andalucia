@@ -8,13 +8,7 @@ const AboutMe = () => {
     <section className="aboutme-section" id="aboutus">
       <div className="container">
         <div className="aboutme-wrapper" data-aos="fade-up">
-          <img
-            className="aboutme-img"
-            src={AbImg}
-            alt="about me"
-            width={600}
-            height={600}
-          />
+          <img className="aboutme-img" src={AbImg} alt="about me" />
           <div className="aboutme-in-wrapper">
             <h3 className="aboutme-title">Andalucia markazi haqida</h3>
             <p className="aboutme-subtitle">

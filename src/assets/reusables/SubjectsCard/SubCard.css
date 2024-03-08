@@ -1,6 +1,7 @@
 .sub-card {
     width        : 100%;
     max-width    : 318px;
+    height       : auto;
     margin-top   : 80px;
     padding      : 20px;
     transition   : 0.5s all;
@@ -105,4 +106,11 @@
 
 .cssbuttons-io-button:active .icon {
     transform: scale(0.95);
+}
+
+@media screen and (max-width:400px) {
+    .sub-card {
+        margin-top: 30px;
+    }
+
 }

@@ -64,3 +64,46 @@
 .name-input {
     margin-bottom: 25px;
 }
+
+/* Responsive */
+
+@media screen and (max-width:900px) {
+    .contact-wrapper {
+        display       : flex;
+        flex-direction: column;
+    }
+
+    .contact-title {
+        text-align: center;
+    }
+
+    .contact-end-wrapper {
+        display    : grid;
+        place-items: center;
+        margin-top : 50px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .yandex-map {
+        width: 450px;
+
+
+    }
+
+
+}
+
+@media screen and (max-width:400px) {
+    .yandex-map {
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width:350px) {
+    .yandex-map {
+        width: 200px;
+    }
+}

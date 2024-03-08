@@ -94,20 +94,22 @@ const WhyChoose = () => {
               </span>{" "}
               va hokazo davlatlardan online darslarimizda tahsil olishadi.
             </p>
+
             <p className="why-choose-info-text mt-3 space-x-10">
               Yuzlab o'quvchilar ayni vaqtda online ta'lim olishmoqda. Agar
               sizda ham online darsda qatnashishni istasangiz quyidagi havolaga
-              bosing 👉{" "}
-              <span>
-                <a
-                  href="https://t.me/Abu_xadija"
-                  target="blank"
-                  rel="noopener noreferrer"
-                >
-                  Begzod Bakirov
-                </a>
-              </span>
+              ustiga bosing👇
             </p>
+            <span>
+              <a
+                className="why-choose-info-text color-red"
+                href="https://t.me/Abu_xadija"
+                target="blank"
+                rel="noopener noreferrer"
+              >
+                Begzod Bakirov
+              </a>
+            </span>
           </div>
           <img className="whychoose-goldTrophy" src={Tv} alt="gold trophy" />
         </div>

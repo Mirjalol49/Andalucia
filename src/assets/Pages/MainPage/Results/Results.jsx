@@ -103,19 +103,7 @@ const Results = () => {
                   overall={51}
                 />
               </div>
-              <div className="embla__slide">
-                <ResultsCard
-                  badge={"B2"}
-                  name={"Mubina A'zamova"}
-                  certificate={Mubina}
-                  subject={"Arab tili"}
-                  listening={59}
-                  reading={58}
-                  writing={36}
-                  speaking={59}
-                  overall={53}
-                />
-              </div>
+
               <div className="embla__slide">
                 <ResultsCard
                   badge={"B2"}

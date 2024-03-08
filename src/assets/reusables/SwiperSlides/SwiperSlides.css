@@ -40,6 +40,7 @@
     font-size: 32px;
     width    : 100%;
 
+
 }
 
 
@@ -89,4 +90,25 @@
 
 .swiper-slide:nth-child(10n) {
     background-color: rgb(54, 94, 77);
+}
+
+@media screen and (max-width: 400px) {
+    .swiper {
+        width : 280px;
+        height: 400px;
+    }
+
+    .hero-slide-text {
+        font-size: 20px;
+
+    }
+
+    .swiper-img {
+        width : 200px;
+        height: auto;
+    }
+
+    .rating-hero {
+        width: 100px;
+    }
 }

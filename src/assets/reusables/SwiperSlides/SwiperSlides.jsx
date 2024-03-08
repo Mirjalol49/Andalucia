@@ -22,12 +22,18 @@ export default function SwiperSlides() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={BegzodT} alt="teacher" width={300} height={300} />
+          <img
+            className="swiper-img"
+            src={BegzodT}
+            alt="teacher"
+            width={300}
+            height={300}
+          />
           <div className="hero-slide-txt-wrapper mt-5">
             <p className="hero-slide-text">Begzod Bakirov</p>
-            <p className="text-2xl">Arab tili - C1</p>
+            <p className="text-2xl">CEO</p>
             <img
-              className="my-2"
+              className=" rating-hero my-2"
               src={Rating}
               alt="rating stars"
               width={110}
@@ -37,12 +43,18 @@ export default function SwiperSlides() {
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img src={NaziraT} alt="teacher" width={300} height={300} />
+          <img
+            className="swiper-img"
+            src={NaziraT}
+            alt="teacher"
+            width={300}
+            height={300}
+          />
           <div className="hero-slide-txt-wrapper">
             <p className="hero-slide-text">Nazira</p>
             <p className="text-2xl">Ingliz tili - C1</p>
             <img
-              className="my-2"
+              className="my-2 rating-hero"
               src={Rating}
               alt="rating stars"
               width={110}
@@ -51,12 +63,18 @@ export default function SwiperSlides() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={IqboldT} alt="teacher" width={300} height={300} />
+          <img
+            className="swiper-img"
+            src={IqboldT}
+            alt="teacher"
+            width={300}
+            height={300}
+          />
           <div className="hero-slide-txt-wrapper">
             <p className="hero-slide-text">Muhammad Iqbol</p>
             <p className="text-2xl">Arab tili - C1</p>
             <img
-              className="my-2"
+              className="my-2 rating-hero"
               src={Rating}
               alt="rating stars"
               width={110}
@@ -66,14 +84,20 @@ export default function SwiperSlides() {
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img src={MathT} alt="teacher" width={300} height={300} />
+          <img
+            className="swiper-img"
+            src={MathT}
+            alt="teacher"
+            width={300}
+            height={300}
+          />
           <div className="hero-slide-txt-wrapper">
             <p className="hero-slide-text text-[25px]">
               Zebuniso Faxriddinovna
             </p>
             <p className="text-2xl">Matematika</p>
             <img
-              className="my-2"
+              className="my-2 rating-hero"
               src={Rating}
               alt="rating stars"
               width={110}

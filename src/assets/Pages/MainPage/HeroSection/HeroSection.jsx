@@ -5,7 +5,6 @@ import "aos/dist/aos.css";
 import "./HeroSection.css";
 
 import SwiperSlides from "../../../reusables/SwiperSlides/SwiperSlides";
-import Button from "../../../reusables/Button/Button";
 
 const HeroSection = () => {
   const [studentsCount, setStudentsCount] = useState(0);
@@ -53,11 +52,9 @@ const HeroSection = () => {
               </li>
             </ul>
 
-            <Button
-              sourse={"#contact"}
-              text={"DARSGA YOZILISH"}
-              margin={"80px 0 0 0"}
-            />
+            <button className="btn btn-warning mt-10 btn-lg w-[200px] border-2 border-yellow-100 ">
+              <a href="#contact">Darsga yozilish</a>
+            </button>
           </div>
 
           <SwiperSlides />

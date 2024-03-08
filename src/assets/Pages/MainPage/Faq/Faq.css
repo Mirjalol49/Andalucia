@@ -17,6 +17,8 @@
     letter-spacing: 0.5px;
 }
 
+
+
 .faq-in-title {
     color         : #0D0F11;
     font-weight   : 700;
@@ -28,4 +30,33 @@
 .faq-content {
     font-size: 18px;
     color    : #0D0F11;
+}
+
+@media screen and (max-width:600px) {
+    .faq-title {
+        font-size  : 35px;
+        line-height: 30px;
+    }
+
+
+    .faq-in-title {
+        color         : #0D0F11;
+        font-weight   : 700;
+        font-size     : 22px;
+        word-spacing  : 1px;
+        letter-spacing: 0.5px;
+    }
+
+    .faq-content {
+        font-size: 18px;
+        color    : #0D0F11;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .faq-title {
+        line-height: 40px;
+    }
+
 }

@@ -88,3 +88,11 @@
     padding-inline: 0;
     list-style    : none;
 }
+
+/* Responsive */
+
+@media screen and (max-width:900px) {
+    .testimonials-title {
+        font-size: 40px;
+    }
+}

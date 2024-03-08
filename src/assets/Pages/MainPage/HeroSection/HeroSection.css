@@ -1,5 +1,6 @@
 .hero-section {
     overflow        : hidden;
+    padding-top     : 60px;
     padding-bottom  : 100px;
     --color         : #231f2077;
     background-color: #0D0F12;
@@ -54,4 +55,46 @@
     font-size     : 16px;
     word-spacing  : 1px;
     letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 900px) {
+    .hero-wrapper {
+        display        : flex;
+        justify-content: space-between;
+        flex-direction : column;
+        align-items    : center;
+
+
+
+    }
+
+    .hero-start-wrapper {
+        display      : grid;
+        place-items  : center;
+        margin-bottom: 80px;
+    }
+
+    .hero-start__title {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .hero-start__title {
+
+        width    : fit-content;
+        font-size: 50px;
+
+
+        line-height: 50px;
+
+
+    }
+}
+
+@media screen and (max-width:400px) {
+    .hero-start__title {
+        font-size  : 35px;
+        line-height: 40px;
+    }
 }

@@ -22,13 +22,10 @@ const Faq = () => {
         {/*  */}
         <div className="collapse collapse-plus  bg-[#F9F4DA] mb-7">
           <input type="radio" name="my-accordion-3" />
-          <p className="faq-in-title collapse-title">
-            Necha yoshdan kursga qabu qilinadi?
-          </p>
+          <p className="faq-in-title collapse-title">Fliallar bormi?</p>
           <div className="collapse-content  bg-[#F9F4DA]">
             <p className="faq-content">
-              Bizda 3 yoshdan 70 yoshgacha o'quvchilar o'qishadi, 3 yoshdan
-              katta bo'lsangiz bemalol qabul qilinasiz.😊
+              Albatta fliallarimiz Parkent va Sergeli tumanlarida bor
             </p>
           </div>
         </div>
@@ -37,12 +34,11 @@ const Faq = () => {
         <div className="collapse collapse-plus  bg-[#F9F4DA] mb-7">
           <input type="radio" name="my-accordion-3" />
           <p className="faq-in-title collapse-title">
-            Necha yoshdan kursga qabu qilinadi?
+            Online darslar ham bormi?
           </p>
           <div className="collapse-content  bg-[#F9F4DA]">
             <p className="faq-content">
-              Bizda 3 yoshdan 70 yoshgacha o'quvchilar o'qishadi, 3 yoshdan
-              katta bo'lsangiz bemalol qabul qilinasiz.😊
+              Ha albatta online darslarimiz ham bor.
             </p>
           </div>
         </div>
@@ -50,13 +46,22 @@ const Faq = () => {
         {/*  */}
         <div className="collapse collapse-plus  bg-[#F9F4DA] mb-7">
           <input type="radio" name="my-accordion-3" />
+          <p className="faq-in-title collapse-title">Bepul darslar bormi?</p>
+          <div className="collapse-content  bg-[#F9F4DA]">
+            <p className="faq-content">
+              Telegram va Youtube kanallarimizga bepul darslarni qo'yib boramiz.
+            </p>
+          </div>
+        </div>
+
+        <div className="collapse collapse-plus  bg-[#F9F4DA] mb-7">
+          <input type="radio" name="my-accordion-3" />
           <p className="faq-in-title collapse-title">
-            Necha yoshdan kursga qabu qilinadi?
+            Ijtimoiy qiynalganlarga yordam bormi?
           </p>
           <div className="collapse-content  bg-[#F9F4DA]">
             <p className="faq-content">
-              Bizda 3 yoshdan 70 yoshgacha o'quvchilar o'qishadi, 3 yoshdan
-              katta bo'lsangiz bemalol qabul qilinasiz.😊
+              Albatta mutlaqo bepul o'qiydigan o'quvchilarimiz ham bor.
             </p>
           </div>
         </div>

@@ -29,30 +29,30 @@ const Testimonials = () => {
 
   const testimonialsData = [
     {
-      nameTitle: "Safina Shamsiddinova",
+      nameTitle: "Hayitmurodova Munavvar",
       thought:
-        "O'qituvchilar ishtiyoqli va bilimdon, manbalar va o'rgatish metodika juda zo'r. Endi men o'rganganlarimni amalda qo'llashga ishonchim komil. O'z tushunchalarini chuqurlashtirishga intilayotganlar uchun tavsiya qilaman.",
+        "Assalomu aleykum, kursingiz yaxshi mavzular juda tushunarli qilib tushuntirilgan. Ustozlar savollarga har doim tushunarli qilib javob berishadi",
       bg: "#ED203D",
       textBg: "#ED203D",
     },
     {
-      nameTitle: "Safina Shamsiddinova",
+      nameTitle: "Safarova A",
       thought:
-        "O'qituvchilar ishtiyoqli va bilimdon, manbalar va o'rgatish metodika juda zo'r. Endi men o'rganganlarimni amalda qo'llashga ishonchim komil. O'z tushunchalarini chuqurlashtirishga intilayotganlar uchun tavsiya qilaman.",
+        "Raxmat kattakon, darslarni juda ham chiroyli tushuntirasiz, Alloh rozi bo'lsin sizlardan",
       bg: "#0BA95B",
       textBg: "#0BA95B",
     },
     {
-      nameTitle: "Safina Shamsiddinova",
+      nameTitle: "Sitora Gaybullayeva",
       thought:
-        "O'qituvchilar ishtiyoqli va bilimdon, manbalar va o'rgatish metodika juda zo'r. Endi men o'rganganlarimni amalda qo'llashga ishonchim komil. O'z tushunchalarini chuqurlashtirishga intilayotganlar uchun tavsiya qilaman.",
+        "Mani eshtib xatolarimni topib to'g'ri yo'l ko'rsatayotganiz uchun Alloh rozi bo'lsin.",
       bg: "#12B5E5",
       textBg: "#12B5E5",
     },
     {
-      nameTitle: "Safina Shamsiddinova",
+      nameTitle: "Chutbayeva Farida",
       thought:
-        "O'qituvchilar ishtiyoqli va bilimdon, manbalar va o'rgatish metodika juda zo'r. Endi men o'rganganlarimni amalda qo'llashga ishonchim komil. O'z tushunchalarini chuqurlashtirishga intilayotganlar uchun tavsiya qilaman.",
+        "Assalomu aleykum hurmatli kurs tashkilotchilari, ustozlar. Kurs juda yaxshi tashkil etilgan, sizlarni yutug'inglar oxirigacha masuliyat bilan, har bir o'quvchi bilan ishlaydilar. Savobli ishlarda bardavom bo'linglar.",
       bg: "#FCBA28",
       textBg: "#FCBA28",
     },

@@ -1,6 +1,7 @@
 .results-card {
     width           : 100%;
     max-width       : 650px;
+    height          : auto;
     border-radius   : 12px;
     margin-left     : 15px;
     margin-right    : 15px;
@@ -131,5 +132,36 @@
     font-size  : 16px;
     font-weight: 600;
     line-height: 20px;
+
+}
+
+/* Responsive  */
+
+@media screen and (max-width:700px) {
+
+    .results-card {
+        width: fit-content;
+    }
+
+    .results-top-wrapper {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+    }
+
+    .results-top-name {
+        margin: 10px 0 0 0;
+    }
+
+    .results-bottom-wrapper {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+
+    }
+
+    .results-subject-wrapper {
+        margin-top: 50px;
+    }
 
 }

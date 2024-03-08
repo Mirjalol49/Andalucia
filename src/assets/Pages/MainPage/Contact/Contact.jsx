@@ -2,7 +2,6 @@
 import "./Contact.css";
 import { useState } from "react";
 import axios from "axios";
-import Button from "../../../reusables/Button/Button";
 
 const Contact = () => {
   const defaultCountryCode = "+998";
@@ -82,11 +81,14 @@ const Contact = () => {
                 autoComplete="off"
                 required
               />
-              <Button text={"Yuborish"} margin={"30px 0 0 0"} />
+              <button className="btn btn-warning mt-10 btn-lg w-full border-2 border-yellow-100">
+                Yuborish
+              </button>
             </form>
           </div>
           <div className="contact-end-wrapper">
             <div
+              className="yandex-map"
               style={{
                 position: "relative",
                 overflow: "hidden",
