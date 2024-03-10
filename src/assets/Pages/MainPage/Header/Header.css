@@ -122,9 +122,23 @@
 
 }
 
+.burger-btn {
+    display: none;
+}
+
+
+
 @media screen and (max-width:1010px) {
+
+
+
     .header-nav-wrapper {
         display: none;
+    }
+
+
+    .burger-btn {
+        display: block;
 
     }
 
