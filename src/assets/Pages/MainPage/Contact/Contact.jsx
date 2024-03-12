@@ -39,7 +39,7 @@ const Contact = () => {
       setFormData({ name: "", number: "" });
 
       // Optionally, you can add a success message or redirect to a thank-you page
-      alert("Form submitted successfully!");
+      alert("Raxmat, tez orada bog'lanamiz!");
     } catch (error) {
       console.error("Error submitting form:", error);
     }
