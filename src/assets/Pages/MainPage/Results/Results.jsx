@@ -9,7 +9,7 @@ import NextImg from "../../../Images/next.svg";
 //!Certificates Images import
 import Dildora from "../../../Images/certificateDildora.png";
 import Ogiloy from "../../../Images/ogiloy.jpg";
-import Mubina from "../../../Images/mubina.jpg";
+
 import Hanifa from "../../../Images/hanifa.jpg";
 import Shaxodat from "../../../Images/shaxodat.jpg";
 import Malika from "../../../Images/malika.jpg";

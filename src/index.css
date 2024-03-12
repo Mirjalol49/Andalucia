@@ -148,10 +148,11 @@ body {
   margin                : 0;
   padding               : 0;
   font-family           : "Poppins", sans-serif;
-  font-weight           : 400;
-  color                 : #F9F4DA;
-  background-color      : #0D0F12;
-  overflow-y            : scroll;
+
+  font-weight     : 400;
+  color           : #F9F4DA;
+  background-color: #0D0F12;
+  overflow-y      : scroll;
 }
 
 body::-webkit-scrollbar {

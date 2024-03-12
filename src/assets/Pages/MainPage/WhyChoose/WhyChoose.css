@@ -1,7 +1,7 @@
 .why-choose {
     background-color: #0D0F12;
     padding-top     : 200px;
-
+    overflow        : hidden;
 }
 
 .why-choose-title {

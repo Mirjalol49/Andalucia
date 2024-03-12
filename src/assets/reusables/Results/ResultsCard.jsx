@@ -27,7 +27,7 @@ const ResultsCard = ({
           className="results-bottom-ctf"
           src={certificate}
           alt="dildora certificate"
-          width={172}
+          width={170}
           height={"auto"}
         />
         <div className="results-subject-wrapper">

@@ -92,9 +92,7 @@ export default function SwiperSlides() {
             height={300}
           />
           <div className="hero-slide-txt-wrapper">
-            <p className="hero-slide-text text-[25px]">
-              Zebuniso Faxriddinovna
-            </p>
+            <p className="hero-slide-text">Zebuniso Faxriddinovna</p>
             <p className="text-2xl">Matematika</p>
             <img
               className="my-2 rating-hero"

@@ -81,9 +81,7 @@ const Contact = () => {
                 autoComplete="off"
                 required
               />
-              <button className="btn btn-warning mt-10 btn-lg w-full border-2 border-yellow-100">
-                Yuborish
-              </button>
+              <button className="contact-btn">Yuborish</button>
             </form>
           </div>
           <div className="contact-end-wrapper">

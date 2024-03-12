@@ -94,21 +94,28 @@
 
 @media screen and (max-width: 400px) {
     .swiper {
-        width : 280px;
-        height: 400px;
+        width : 250px;
+        height: 380px;
     }
 
     .hero-slide-text {
         font-size: 20px;
 
+
     }
 
     .swiper-img {
-        width : 200px;
+        width : 180px;
         height: auto;
     }
 
     .rating-hero {
-        width: 100px;
+        width: 80px;
     }
+
+
+
+
+
+
 }

@@ -32,6 +32,13 @@
     .subjects-title {
         line-height: 50px;
     }
+
+    .subjects-box {
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+        margin         : 0 auto;
+    }
 }
 
 @media screen and (max-width:400px) {

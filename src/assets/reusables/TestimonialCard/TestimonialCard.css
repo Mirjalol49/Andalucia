@@ -33,6 +33,7 @@
     background-color: red;
     border-radius   : 0 0 10px 10px;
     border          : 3px solid #0D0F12;
+    height          : 150px;
 }
 
 @media screen and (max-width:600px) {
@@ -50,11 +51,27 @@
     .testimonial-title {
         font-size: 20px;
     }
+
+
 }
 
 @media screen and (max-width:400px) {
     .testimonial-wrapper {
         width    : 100%;
         max-width: 250px;
+    }
+
+    .testimonial-title {
+        font-size: 15px;
+    }
+
+    .testimonial-text {
+        height: 310px;
+
+    }
+
+    .rating-testimonial {
+        width : 50px;
+        height: auto;
     }
 }

@@ -96,3 +96,10 @@
         font-size: 40px;
     }
 }
+
+@media screen and (max-width:400px) {
+    .testimonials-title {
+        font-size: 30px;
+        margin   : 15px 0 0 0;
+    }
+}

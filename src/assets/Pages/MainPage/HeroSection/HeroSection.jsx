@@ -52,9 +52,9 @@ const HeroSection = () => {
               </li>
             </ul>
 
-            <button className="btn btn-warning mt-10 btn-lg w-[200px] border-2 border-yellow-100 ">
-              <a href="#contact">Darsga yozilish</a>
-            </button>
+            <a className="course-btn" href="#contact">
+              Darsga Yozilish
+            </a>
           </div>
 
           <SwiperSlides />

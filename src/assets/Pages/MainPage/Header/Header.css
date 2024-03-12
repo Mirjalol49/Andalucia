@@ -125,54 +125,16 @@
 /* Add these styles for the animated burger button */
 
 
-.menu {
-    background-color: transparent;
-    border          : none;
-    cursor          : pointer;
-    display         : flex;
-    padding         : 0;
-    outline         : none;
+
+
+.mobile-wrapper {
+    display: none;
+
 }
 
-.line {
-    fill        : none;
-    stroke      : #ffffff;
-    stroke-width: 6;
-    transition  : stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
-        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.line1 {
-    stroke-dasharray: 60 207;
-    stroke-width    : 6;
-}
-
-.line2 {
-    stroke-dasharray: 60 60;
-    stroke-width    : 6;
-}
-
-.line3 {
-    stroke-dasharray: 60 207;
-    stroke-width    : 6;
-}
-
-.opened .line1 {
-    stroke-dasharray : 90 207;
-    stroke-dashoffset: -134;
-    stroke-width     : 6;
-}
-
-.opened .line2 {
-    stroke-dasharray : 1 60;
-    stroke-dashoffset: -30;
-    stroke-width     : 6;
-}
-
-.opened .line3 {
-    stroke-dasharray : 90 207;
-    stroke-dashoffset: -134;
-    stroke-width     : 6;
+.burger-btn {
+    display: none;
 }
 
 
@@ -183,25 +145,16 @@
         top     : 0;
         z-index : 100;
         width   : 100%;
+        padding : 10px 0 0 0;
     }
 
+    .header-wrapper {
+        padding: 0 0 10px 0;
+    }
 
     .header-nav-wrapper {
         display: none;
     }
-
-
-
-
-}
-
-.mobile-wrapper {
-    display: none;
-
-}
-
-@media screen and (max-width: 1010px) {
-
 
     .mobile-wrapper {
         position        : fixed;
@@ -209,7 +162,7 @@
         left            : 0;
         width           : 100%;
         height          : 100%;
-        background-color: rgb(51, 49, 49);
+        background-color: #0D0F12;
         /* Adjust the background color as needed */
         display         : none;
         flex-direction  : column;
@@ -225,11 +178,7 @@
         transform: translateY(0%);
     }
 
-    .burgerX-btn {
-        display    : block;
-        margin-left: auto;
-        padding    : 30px 30px 0 0;
-    }
+
 
     .mobile-nav {
         margin-top     : 10px;
@@ -256,4 +205,62 @@
         max-width      : 350px;
         margin         : 0 auto;
     }
+
+
+    /* button */
+
+    .burger-btn {
+        background-color: transparent;
+        border          : none;
+        cursor          : pointer;
+        display         : flex;
+        padding         : 0;
+
+        outline : none;
+        overflow: hidden;
+    }
+
+    .line {
+        fill        : none;
+        stroke      : #ffffff;
+        stroke-width: 6;
+        transition  : stroke-dasharray 300ms cubic-bezier(0.4, 0, 0.2, 1),
+            stroke-dashoffset 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .line1 {
+        stroke-dasharray: 60 207;
+        stroke-width    : 6;
+    }
+
+    .line2 {
+        stroke-dasharray: 60 60;
+        stroke-width    : 6;
+    }
+
+    .line3 {
+        stroke-dasharray: 60 207;
+        stroke-width    : 6;
+    }
+
+    .opened .line1 {
+        stroke-dasharray : 90 207;
+        stroke-dashoffset: -134;
+        stroke-width     : 6;
+    }
+
+    .opened .line2 {
+        stroke-dasharray : 1 60;
+        stroke-dashoffset: -30;
+        stroke-width     : 6;
+    }
+
+    .opened .line3 {
+        stroke-dasharray : 90 207;
+        stroke-dashoffset: -134;
+        stroke-width     : 6;
+    }
+
+
+
 }

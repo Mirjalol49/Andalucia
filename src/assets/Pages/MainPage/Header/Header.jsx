@@ -5,7 +5,7 @@ import Youtube from "../../../Images/youtube.svg";
 import Telegram from "../../../Images/telegram.svg";
 import Facebook from "../../../Images/facebook.svg";
 import Instagram from "../../../Images/instagram.svg";
-import X from "../../../Images/x.svg";
+
 import "./Header.css";
 
 const Header = () => {
@@ -105,7 +105,7 @@ const Header = () => {
         </div>
       </div>
 
-      <header className="header" data-aos="fade-down">
+      <header className="header">
         <div className="container">
           <div className="header-wrapper">
             <div className="header-inwrapper">
@@ -115,7 +115,7 @@ const Header = () => {
 
               {/* Animated burger replaces the burger button */}
               <button
-                className={`menu${isMobileNavVisible ? " opened" : ""}`}
+                className={`burger-btn${isMobileNavVisible ? " opened" : ""}`}
                 aria-label="Main Menu"
                 onClick={toggleMobileNav}
               >
