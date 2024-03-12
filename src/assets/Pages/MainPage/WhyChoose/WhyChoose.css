@@ -89,7 +89,7 @@
     height: auto
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .why-choose-title {
         font-size    : 30px;
         line-height  : 35px;
