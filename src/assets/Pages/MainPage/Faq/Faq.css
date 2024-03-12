@@ -55,6 +55,11 @@
 }
 
 @media screen and (max-width:400px) {
+
+    .faq {
+        padding: 10px 0;
+    }
+
     .faq-title {
         line-height: 40px;
     }
