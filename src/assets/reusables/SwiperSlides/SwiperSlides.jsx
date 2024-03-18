@@ -5,6 +5,7 @@ import IqboldT from "../../Images/IqbolT.png";
 import NaziraT from "../../Images/NaziraT.png";
 import MathT from "../../Images/MathT.png";
 import Rating from "../../Images/rating.png";
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-cards";
@@ -41,6 +42,7 @@ export default function SwiperSlides() {
             />
           </div>
         </SwiperSlide>
+
         <SwiperSlide>
           {" "}
           <img

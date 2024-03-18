@@ -73,21 +73,9 @@
     color: #CF932D;
 }
 
-.whychoose-svg {
-    position     : relative !important;
-    margin-bottom: 350px;
 
 
-}
 
-.dot-svg {
-    position: absolute;
-    right   : 120px;
-
-    bottom: -300px;
-    width : 1100px;
-    height: auto
-}
 
 @media screen and (max-width:500px) {
     .why-choose-title {
@@ -119,8 +107,6 @@
         font-size: 20px;
     }
 
-    .whychoose-svg {
-        display: none;
-    }
+
 
 }

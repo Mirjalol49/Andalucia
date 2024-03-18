@@ -70,15 +70,18 @@ const WhyChoose = () => {
           <div className="why-choose-info">
             <h3 className="why-choose-info-title">Biz Tajribalimiz</h3>
             <p className="why-choose-info-text">
-              Bizda o'qituvchilar tajribali pedagok kamida <span>Bakalavr</span>{" "}
-              dan tortib <span>Doktorant</span> darajaga cha.
+              Bizda o'qituvchilar tajribali, pedagog, <span>bakalavr</span> dan
+              tortib <span>doktorant</span> darajaga cha.
             </p>
             <p className="why-choose-info-text mt-3">
               Bizda Arab tilidan Xalqaro{" "}
-              <span className="whychoose-start">Attanal</span> va{" "}
-              <span className="whychoose-start">CEFR dan C1</span> darajadagi
-              o'qtuvchilarimiz dars berishadi va Amerika va Dubai da o'qib
-              malaka oshirgan o'qtuvchilarmiz ham bor.
+              <span className="whychoose-start  text-[#FFD015]">Attanal</span>{" "}
+              va{" "}
+              <span className="whychoose-start  text-[#FFD015]">
+                CEFR dan C1
+              </span>{" "}
+              darajadagi o'qtuvchilarimiz dars berishadi va Amerika va Dubai da
+              o'qib malaka oshirgan o'qtuvchilarmiz ham bor.
             </p>
           </div>
         </div>
@@ -98,22 +101,20 @@ const WhyChoose = () => {
             <p className="why-choose-info-text mt-3 space-x-10">
               Yuzlab o'quvchilar ayni vaqtda online ta'lim olishmoqda. Agar
               sizda ham online darsda qatnashishni istasangiz quyidagi havolaga
-              ustiga bosing👇
-            </p>
-            <span>
+              ustiga bosing. 👉{" "}
               <a
-                className="why-choose-info-text color-red"
+                className="why-choose-info-text text-[#FFD015]"
                 href="https://t.me/Abu_xadija"
                 target="blank"
                 rel="noopener noreferrer"
               >
-                Begzod Bakirov
+                Begzod Bakirov bilan bog'lanish
               </a>
-            </span>
+            </p>
           </div>
+
           <img className="whychoose-goldTrophy" src={Tv} alt="gold trophy" />
         </div>
-
         <div className="why-choose-exp" data-aos="fade-left">
           <img
             className="whychoose-goldTrophy"
@@ -124,39 +125,21 @@ const WhyChoose = () => {
             <h3 className="why-choose-info-title">Bepul Darslar</h3>
             <p className="why-choose-info-text">
               Haftada kamida 3 marta kanalimizda Jonli bepul dars shaxsan{" "}
-              <span className="whychoose-end">Begzod Bakirov(doktorant) </span>{" "}
+              <span className="whychoose-end  text-[#FFD015]">
+                Begzod Bakirov(doktorant){" "}
+              </span>{" "}
               tomonidan o'tqaziladi. Arab tilidan bepul darslarimiz Youtube va
               Telegramda qo'yib boriladi.
             </p>
+            <p className="why-choose-info-text text-[#FFD015]">
+              {" "}
+              <a href="https://t.me/begzodbakirov">
+                {" "}
+                Begzod Bakirov shaxsiy telegram bloglari.
+              </a>
+            </p>
           </div>
         </div>
-      </div>
-      <div className="whychoose-svg">
-        <svg
-          viewBox="0 0 1467 1540"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="dot-svg"
-        >
-          <circle cx="733" cy="1516" r="4" fill="#FFE666"></circle>
-          <path
-            d="M733 1485V1477.08C733 1448.47 742.28 1420.63 759.447 1397.74L786.149 1362.14C802.925 1339.77 804.177 1309.37 789.297 1285.7V1285.7C767.478 1250.99 720.151 1243.88 686.412 1267.17C677.389 1273.41 668.335 1279.26 660 1284"
-            stroke="#FFE666"
-            strokeWidth="4"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeDasharray="0 10"
-          ></path>
-          <path
-            d="M659.999 1284C659.999 1284 595.999 1323 563 1296C523.567 1263.74 531 1233 554.999 1195C600.182 1123.46 657.103 1103.81 737.999 1079C873.407 1037.48 987.549 1045.91 1096 1137C1181.59 1208.89 1110.95 1381.24 1222 1394C1314.59 1404.64 1371.46 1331.86 1410 1247C1468.76 1117.61 1236.75 1040.37 1283 906C1299.85 857.032 1343.59 844.73 1354 794C1379.41 670.164 1135.15 703.28 1112 579C1082.5 420.591 1385.8 428.088 1382 267C1379.72 170.416 1275 116 1277 43"
-            stroke="white"
-            strokeOpacity="0.3"
-            strokeWidth="4"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeDasharray="0 10"
-          ></path>
-        </svg>
       </div>
     </section>
   );

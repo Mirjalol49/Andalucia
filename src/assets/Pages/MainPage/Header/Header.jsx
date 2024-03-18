@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // ... (your imports)
 
 import { useState, useEffect } from "react";
@@ -77,8 +78,8 @@ const Header = () => {
             />
           </a>
           <a
-            className="header-social__link  bg-red-600"
-            href="https://www.youtube.com/@andaluciantm/videos"
+            className="header-social__link   bg-red-600"
+            href="https://www.youtube.com/@andalucia_uz/videos"
             target="blank"
           >
             <img
@@ -178,7 +179,7 @@ const Header = () => {
                   </a>
                   <a
                     className="header-social__link  bg-red-600"
-                    href="https://www.youtube.com/@andaluciantm/videos"
+                    href="https://www.youtube.com/@andalucia_uz/videos"
                     target="blank"
                   >
                     <img

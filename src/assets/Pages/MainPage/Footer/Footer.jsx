@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer-top-wrapper">
-          <a className="footer-logo" href="andalucia.uz">
+          <a className="footer-logo" href="https://www.andalucia.uz/">
             Andalucia
           </a>
 

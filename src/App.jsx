@@ -5,9 +5,12 @@ import MainPage from "./assets/Pages/MainPage/MainPage";
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <MainPage />
-      <Footer />
+      <Footer /> */}
+      <h1 className="text-center text-5xl">
+        Sorry this page no longer exist 😟
+      </h1>
     </>
   );
 }

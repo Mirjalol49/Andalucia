@@ -1,9 +1,10 @@
 .hero-section {
-    overflow        : hidden;
-    padding-top     : 60px;
-    padding-bottom  : 100px;
-    --color         : #231f2077;
-    background-color: #0D0F12;
+    overflow      : hidden;
+    padding-top   : 60px;
+    padding-bottom: 100px;
+    --color       : #231f2077;
+
+    background-color: #151118;
     background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
         linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
     background-size: 72px 80px;
