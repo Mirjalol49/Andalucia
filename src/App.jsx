@@ -8,9 +8,7 @@ function App() {
       {/* <Header />
       <MainPage />
       <Footer /> */}
-      <h1 className="text-center text-5xl">
-        Sorry this page no longer exist 😟
-      </h1>
+      <h1>Sorry this page no longer exists</h1>
     </>
   );
 }
