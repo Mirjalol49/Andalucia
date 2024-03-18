@@ -1,10 +1,11 @@
 import AboutMe from "./AboutMe/AboutMe";
 import Contact from "./Contact/Contact";
 import Faq from "./Faq/Faq";
-import Popup from "reactjs-popup";
+
 import HeroSection from "./HeroSection/HeroSection";
 
 import Picnic from "./Picnic/Picnic";
+import Popup from "./PopUp/Popup";
 
 import Results from "./Results/Results";
 import Subjects from "./Subjects/Subjects";
