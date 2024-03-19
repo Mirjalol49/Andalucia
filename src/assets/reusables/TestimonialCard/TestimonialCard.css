@@ -62,7 +62,7 @@
     }
 
     .testimonial-title {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .testimonial-text {
@@ -71,7 +71,7 @@
     }
 
     .rating-testimonial {
-        width : 50px;
+        width : 100px;
         height: auto;
     }
 }

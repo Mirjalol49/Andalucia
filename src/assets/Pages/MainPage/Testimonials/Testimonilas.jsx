@@ -29,7 +29,7 @@ const Testimonials = () => {
 
   const testimonialsData = [
     {
-      nameTitle: "Hayitmurodova Munavvar",
+      nameTitle: "Hayitmurodova M",
       thought:
         "Assalomu aleykum, kursingiz yaxshi mavzular juda tushunarli qilib tushuntirilgan. Ustozlar savollarga har doim tushunarli qilib javob berishadi",
       bg: "#ED203D",
