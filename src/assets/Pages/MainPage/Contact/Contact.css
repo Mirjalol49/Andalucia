@@ -127,6 +127,9 @@
 }
 
 @media screen and (max-width: 400px) {
+    .contact {
+        margin-bottom: 30px;
+    }
 
     .contact-title {
         font-size: 30px;
