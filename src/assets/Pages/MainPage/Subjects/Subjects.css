@@ -2,16 +2,17 @@
     padding         : 100px 0;
     background-color: #F9F4DA;
     background-color: #faf3dd;
+
 }
 
 
 .subjects-title {
-    font-size     : 50px;
-    line-height   : 60px;
-    font-weight   : 700;
-    color         : #0F0D0E;
-    text-align    : center;
-    text-transform: uppercase;
+    font-size  : min(50px, 9vw);
+    line-height: 60px;
+    font-weight: 700;
+    color      : #0F0D0E;
+    text-align : center;
+
     word-spacing  : 1px;
     letter-spacing: 0.5px;
 }
@@ -29,9 +30,7 @@
 /* Responsive */
 
 @media screen and (max-width:700px) {
-    .subjects-title {
-        line-height: 50px;
-    }
+
 
     .subjects-box {
         display        : flex;
@@ -44,12 +43,6 @@
 @media screen and (max-width:400px) {
     .subjects-section {
         padding-top: 20px;
-    }
-
-    .subjects-title {
-        font-size  : 30px;
-        line-height: 30px;
-
     }
 
 

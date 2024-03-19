@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
   "postcss-import": {},
   "tailwindcss/nesting": {},
   tailwindcss: {},

@@ -1,6 +1,6 @@
 .aboutme-section {
-    padding   : 50px 0;
-    background: #0D0F12;
+    padding: 50px 0;
+
 
 
 }
@@ -32,9 +32,9 @@
 }
 
 .aboutme-title {
-    font-size     : 35px;
+    font-size     : 40px;
     font-weight   : 700;
-    margin-bottom : 10px;
+    margin-bottom : 8px;
     word-spacing  : 1px;
     letter-spacing: 0.5px;
 }

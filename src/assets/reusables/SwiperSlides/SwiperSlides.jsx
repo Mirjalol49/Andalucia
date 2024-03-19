@@ -15,7 +15,7 @@ import { EffectCards } from "swiper/modules";
 
 export default function SwiperSlides() {
   return (
-    <>
+    <div>
       <Swiper
         effect={"cards"}
         grabCursor={true}
@@ -30,6 +30,7 @@ export default function SwiperSlides() {
             width={300}
             height={300}
           />
+
           <div className="hero-slide-txt-wrapper mt-5">
             <p className="hero-slide-text">Begzod Bakirov</p>
             <p className="text-2xl">CEO</p>
@@ -106,6 +107,6 @@ export default function SwiperSlides() {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }

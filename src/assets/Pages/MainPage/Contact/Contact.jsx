@@ -120,7 +120,7 @@ const Contact = () => {
               <iframe
                 src="https://yandex.com/map-widget/v1/?ll=69.190239%2C41.268953&mode=whatshere&whatshere%5Bpoint%5D=69.190277%2C41.268586&whatshere%5Bzoom%5D=16&z=16"
                 width="560"
-                height="400"
+                height="355"
                 frameBorder="1"
                 allowFullScreen={true}
                 style={{ position: "relative" }}

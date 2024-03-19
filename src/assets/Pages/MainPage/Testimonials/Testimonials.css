@@ -1,11 +1,11 @@
 .testimonials {
-    background-color: #0D0F12;
-    padding         : 100px 0;
+
+    padding: 100px 0 0 0;
 }
 
 .testimonials-title {
     font-weight   : 700;
-    font-size     : 60px;
+    font-size     : min(50px, 9vw);
     color         : #F9F4DA;
     margin-top    : 100px;
     margin-bottom : 20px;

@@ -1,8 +1,8 @@
 .footer {
-    padding : 100px 0 150px 0;
-    position: relative;
-
-    overflow: hidden;
+    margin-top: 100px;
+    padding   : 10px 0 150px 0;
+    position  : relative;
+    overflow  : hidden;
 }
 
 .footer-top-wrapper {

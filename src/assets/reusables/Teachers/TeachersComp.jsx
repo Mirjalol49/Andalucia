@@ -1,22 +1,19 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
-import { useState } from "react";
-import "./TeachersComp.css"; // Import your CSS file for styling
 
-const TeachersComp = ({ bgCol, img, name, subject }) => {
-  const [modalOpen, setModalOpen] = useState(false);
+import "./TeachersComp.css";
 
-  const openModal = () => {
-    setModalOpen(true);
-    // Prevent scrolling when the modal is open
-    document.body.style.overflow = "hidden";
-  };
-
-  const closeModal = () => {
-    setModalOpen(false);
-    // Restore scrolling when the modal is closed
-    document.body.style.overflow = "auto";
-  };
+const TeachersComp = ({
+  bgCol,
+  img,
+  name,
+  subject,
+  ModalName,
+  ModalAbout,
+  ModalText,
+  id,
+}) => {
+  const modalId = `my_modal_${id}`; // Generate unique modal id
 
   return (
     <div className="teacher-card" style={{ backgroundColor: bgCol }}>
@@ -24,24 +21,32 @@ const TeachersComp = ({ bgCol, img, name, subject }) => {
         <img className="w-52 ob" src={img} alt="teacher-img" />
       </div>
       <div className="teacher-subcard">
-        <h3 className="text-3xl text-[#151118] font-bold">{name}</h3>
-        <p className="text-2xl text-[#151118] font-semibold">{subject}</p>
-        <button className="teacher-card-btn" onClick={openModal}>
+        <h3 className="teacher-subcard-title text-[#151118] font-bold">
+          {name}
+        </h3>
+        <p className=" teacher-subcard-text  text-[#151118] font-semibold">
+          {subject}
+        </p>
+        <button
+          className="teacher-card-btn"
+          onClick={() => document.getElementById(modalId).showModal()}
+        >
           Ko'proq...
         </button>
-        {modalOpen && (
-          <div className="overlay">
-            <div className="modal">
-              <button className="close-button" onClick={closeModal}>
-                Close
+        {/* modal */}
+        <dialog id={modalId} className="modal w-full">
+          <div className="modal-box bg-[#F9F4DA] border-4 border-solid border-black w-full">
+            <form method="dialog">
+              {/* if there is a button in form, it will close the modal */}
+              <button className="btn btn-md btn-circle btn-ghost absolute right-2 top-2">
+                ✕
               </button>
-              <div className="modal-content">
-                <h2>This is a beautiful modal!</h2>
-                <p>You can put any content here.</p>
-              </div>
-            </div>
+            </form>
+            <h3 className="font-bold text-lg">{ModalName}</h3>
+            <p className="py-4">{ModalAbout}</p>
+            <p className="py-4">{ModalText}</p>
           </div>
-        )}
+        </dialog>
       </div>
     </div>
   );

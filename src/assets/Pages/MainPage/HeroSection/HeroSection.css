@@ -1,15 +1,13 @@
 .hero-section {
-    overflow      : hidden;
-    padding-top   : 60px;
-    padding-bottom: 100px;
-    --color       : #231f2077;
+    overflow: hidden;
 
+    padding-top     : 200px;
+    padding-bottom  : 100px;
     background-color: #151118;
-    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
-        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
-    background-size: 72px 80px;
-
-
+    opacity         : 1;
+    background-image: linear-gradient(#221E1F 1.8px, transparent 1.8px),
+        linear-gradient(to right, #221E1F 1.8px, #151118 1.8px);
+    background-size: 36px 36px;
 }
 
 .hero-wrapper {
@@ -23,7 +21,7 @@
 
 
 .hero-start__title {
-    font-size     : 64px;
+    font-size     : 65px;
     font-weight   : 800;
     line-height   : 74px;
     width         : 100%;
