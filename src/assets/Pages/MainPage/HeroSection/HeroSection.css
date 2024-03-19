@@ -81,6 +81,11 @@
 
 
 @media screen and (max-width: 900px) {
+
+    .hero-section {
+        padding-top: 80px;
+    }
+
     .hero-wrapper {
         display        : flex;
         justify-content: space-between;
@@ -117,6 +122,11 @@
 }
 
 @media screen and (max-width:400px) {
+
+    .hero-section {
+        padding-top: 40px;
+    }
+
     .hero-start__title {
         font-size  : 35px;
         line-height: 40px;

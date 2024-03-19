@@ -2,13 +2,15 @@
     padding         : 100px 0;
     background-color: #F9F4DA;
     background-color: #faf3dd;
-
+    overflow        : hidden;
 }
 
 
 .subjects-title {
     font-size  : min(50px, 9vw);
-    line-height: 60px;
+    line-height: 40px;
+
+
     font-weight: 700;
     color      : #0F0D0E;
     text-align : center;
