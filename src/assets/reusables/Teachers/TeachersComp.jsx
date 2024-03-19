@@ -34,11 +34,11 @@ const TeachersComp = ({
           Ko'proq...
         </button>
         {/* modal */}
-        <dialog id={modalId} className="modal w-full">
-          <div className="modal-box bg-[#F9F4DA] border-4 border-solid border-black w-full">
+        <dialog id={modalId} className="modal">
+          <div className="modal-box bg-[#F9F4DA] border-4 border-solid border-black">
             <form method="dialog">
               {/* if there is a button in form, it will close the modal */}
-              <button className="btn btn-md btn-circle btn-ghost absolute right-2 top-0 bottom-10">
+              <button className="btn btn-md btn-circle btn-ghost absolute right-[0.2rem] top-[1px]">
                 ✕
               </button>
             </form>

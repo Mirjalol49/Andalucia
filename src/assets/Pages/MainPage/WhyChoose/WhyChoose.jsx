@@ -87,7 +87,7 @@ const WhyChoose = () => {
         </div>
 
         <div className="why-choose-exp" data-aos="fade-right">
-          <div className="why-choose-info">
+          <div className="why-choose-info mb-10">
             <h3 className="why-choose-info-title">Online Darslar</h3>
             <p className="why-choose-info-text">
               Uzoq masofada istiqomat qiluvchilar uchun Online darslarimiz ham

@@ -76,7 +76,7 @@ const Contact = () => {
                 name="number"
                 value={formData.number}
                 onChange={handleChange}
-                placeholder={defaultCountryCode}
+                placeholder="+998"
                 min={12}
                 autoComplete="off"
                 required

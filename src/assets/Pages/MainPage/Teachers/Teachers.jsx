@@ -39,8 +39,10 @@ const Teachers = () => {
   return (
     <section className="teachers">
       <div className="container">
-        <h2 className="teachers-title">Bizning O'qituvchilar</h2>
-        <div className="teacher-carousel-wrapper">
+        <h2 className="teachers-title" data-aos="fade-down">
+          Bizning O'qituvchilar
+        </h2>
+        <div className="teacher-carousel-wrapper" data-aos="fade-up">
           <button className="mr-3" onClick={handlePrev}>
             <img src={TPrev} width={80} height={80} alt="prev button" />
           </button>
