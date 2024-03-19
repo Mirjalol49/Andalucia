@@ -38,7 +38,7 @@ const TeachersComp = ({
           <div className="modal-box bg-[#F9F4DA] border-4 border-solid border-black w-full">
             <form method="dialog">
               {/* if there is a button in form, it will close the modal */}
-              <button className="btn btn-md btn-circle btn-ghost absolute right-2 top-0 mb-3">
+              <button className="btn btn-md btn-circle btn-ghost absolute right-2 top-0 bottom-10">
                 ✕
               </button>
             </form>
