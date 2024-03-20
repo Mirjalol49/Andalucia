@@ -68,7 +68,7 @@ const Results = () => {
         ></path>
       </svg>
       <div className="container">
-        <h2 className="results-title">O'quvchilarimizning natijalari</h2>
+        <h2 className="results-title">O'quvchilar natijalari</h2>
 
         {/* ******************* */}
         <div className="carousel-wrapper">

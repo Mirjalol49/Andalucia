@@ -117,7 +117,7 @@ const Testimonials = () => {
       </svg>
       <div className="container">
         <h2 className="testimonials-title" data-aos="fade-up">
-          O'quvchilarimizning fikri
+          O'quvchilar fikri
         </h2>
       </div>
       <div className="scroller" data-speed="slow" data-aos="fade-up">

@@ -6,7 +6,8 @@
 
 .testimonials-title {
     font-weight   : 700;
-    font-size     : min(50px, 9vw);
+    font-size     : 50px;
+    word-break    : keep-all;
     color         : #F9F4DA;
     margin-top    : 100px;
     margin-bottom : 20px;
@@ -92,13 +93,14 @@
 
 /* Responsive */
 
-@media screen and (max-width:900px) {
-    .testimonials-title {
-        font-size: 40px;
-    }
-}
+@media screen and (max-width:900px) {}
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
+
+    .testimonials-title {
+        font-size : 30px;
+        word-break: keep-all;
+    }
 
     .testimonials {
         padding: 0;
