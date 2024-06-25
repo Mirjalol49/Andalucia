@@ -13,11 +13,12 @@ const AboutMe = () => {
             <h3 className="aboutme-title">Andalucia markazi haqida</h3>
             <p className="aboutme-subtitle">
               {" "}
-              Biz oʻquvchilarga oʻz salohiyatlarini toʻliq roʻyobga chiqarishga
-              imkon beruvchi yuqori darajadagi, sifatli taʼlimni taqdim etishga
-              intilamiz. Bizning oʻquv dasturimiz ijodkorlik, tanqidiy fikrlash
-              va fikrlashni rivojlantirish uchun tajribali oʻqituvchilar
-              tomonidan puxta ishlab chiqilgan.
+              Biz oʻquvchilarga yuqori darajadagi, sifatli taʼlimni taqdim
+              etishga intilamiz. Arab tili kursimiz tajribali oʻqituvchilar
+              tomonidan ishlab chiqilgan boʻlib, ijodkorlik va tanqidiy
+              fikrlashni rivojlantirishga yordam beradi. Arab tili darslarimiz
+              orqali oʻquvchilar grammatikani, lug'at boyligini va nutq
+              madaniyatini o'rganadilar.
             </p>
           </div>
         </div>
